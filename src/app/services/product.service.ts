@@ -9,7 +9,7 @@ import { ProductModel } from '../models/product.model';
 export class ProductService {
 
     //apiURL = "http://localhost/ministock_restapi/public/api/";
-    apiURL = "http://morning-thicket-21795.herokuapp.com/public/api/";
+    apiURL = "https://morning-thicket-21795.herokuapp.com/public/api/";
 
     constructor(private http: HttpClient) { }
 
