@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('ministock app is running!');
+    expect(page.getTitleText()).toEqual('ministock_angular_inclass app is running!');
   });
 
   afterEach(async () => {
